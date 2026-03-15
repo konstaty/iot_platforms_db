@@ -8,10 +8,10 @@
                 "name": "HiveMQ",
                 "url": "https://www.hivemq.com",
                 "open_source": "partially",
+                "language": "Java",
                 "free_version": true,
                 "paid_version": true,
-                "protocols_native": ["MQTT"],
-                "protocols_adapters": [],
+                "protocols": ["MQTT"],
                 "integrations": [
                     ["Parquet", "https://parquet.apache.org"],
                     ["Tracing", "https://docs.hivemq.com/hivemq-distributed-tracing-extension/latest/index.html"],
@@ -29,16 +29,17 @@
                 "workflow_visual_designer": true,
                 "custom_dashboards": true,
                 "custom_widgets": true,
-                "debug_support": null
+                "debug_support": null,
+                "headline": "The HiveMQ MQTT Platform is purpose-built to bring operational data from the edge into the enterprise"
             },
             {
                 "name": "EMQX",
                 "url": "https://www.emqx.com",
                 "open_source": "partially",
+                "language": "Erlang",
                 "free_version": true,
                 "paid_version": true,
-                "protocols_native": ["MQTT"],
-                "protocols_adapters": ["HTTP"],
+                "protocols": ["MQTT", "HTTP"],
                 "integrations": [
                     ["Webhooks", "https://docs.emqx.com/en/emqx/latest/data-integration/webhook.html"],
                     ["AlloyDB", "https://docs.emqx.com/en/emqx/latest/data-integration/alloydb.html"],
@@ -86,16 +87,17 @@
                 "workflow_visual_designer": true,
                 "custom_dashboards": true,
                 "custom_widgets": true,
-                "debug_support": null
+                "debug_support": null,
+                "headline": "Connect, process, and stream real-time data from millions of devices to any cloud, AI, and analytics"
             },
             {
                 "name": "Losant",
                 "url": "https://www.losant.com/iot-platform",
                 "open_source": false,
+                "language": null,
                 "free_version": false,
                 "paid_version": true,
-                "protocols_native": [],
-                "protocols_adapters": ["MQTT", "HTTP", "OPC UA", "Websocket"],
+                "protocols": ["MQTT", "HTTP", "OPC UA", "Websocket"],
                 "integrations": [
                     ["Amazon SQS", "https://docs.losant.com/applications/integrations/#amazon-sqs"],
                     ["Azure Event Hubs", "https://docs.losant.com/applications/integrations/#azure-event-hubs"],
@@ -106,16 +108,17 @@
                 "workflow_visual_designer": true,
                 "custom_dashboards": true,
                 "custom_widgets": false,
-                "debug_support": true
+                "debug_support": true,
+                "headline": "Experience Losant's cutting-edge, low-code IoT platform, accelerating the creation of real-time connected solutions and granting you unmatched flexibility in shaping tomorrow's possibilities"
             },
             {
                 "name": "ThingsBoard",
                 "url": "https://thingsboard.io",
                 "open_source": "Partially",
+                "language": "Java",
                 "free_version": true,
                 "paid_version": true,
-                "protocols_native": ["MQTT", "HTTP"],
-                "protocols_adapters": ["CoAP", "MQTT", "HTTP", "TCP", "UDP"],
+                "protocols": ["CoAP", "MQTT", "HTTP", "TCP", "UDP"],
                 "integrations": [
                     ["MQTT", "https://thingsboard.io/docs/user-guide/integrations/mqtt/"],
                     ["Kafka", "https://thingsboard.io/docs/user-guide/integrations/kafka/"],
@@ -141,16 +144,17 @@
                 "workflow_visual_designer": true,
                 "custom_dashboards": true,
                 "custom_widgets": true,
-                "debug_support": true
+                "debug_support": true,
+                "headline": "Device management, data collection, processing and visualization for your IoT solution"
             },
             {
                 "name": "Cedalo",
                 "url": "https://cedalo.com/",
                 "open_source": "partially",
+                "language": "C/C++",
                 "free_version": true,
                 "paid_version": true,
-                "protocols_native": ["MQTT"],
-                "protocols_adapters": ["MQTT", "HTTP"],
+                "protocols": ["MQTT", "HTTP"],
                 "integrations": [
                     ["Azure EventHubs", "https://docs.cedalo.com/mosquitto/bridges/azure-bridge"],
                     ["Google Pub/Sub", "https://docs.cedalo.com/mosquitto/bridges/google-pubsub-bridge"],
@@ -172,7 +176,62 @@
                 "workflow_visual_designer": false,
                 "custom_dashboards": false,
                 "custom_widgets": false,
-                "debug_support": null
+                "debug_support": null,
+                "headline": "Delivering IoT excellence with the powerful duo: Pro Edition for Eclipse Mosquitto™ and Management Center web UI."
+            },
+            {
+                "name": "Ubidots",
+                "url": "https://ubidots.com/",
+                "open_source": false,
+                "language": null,
+                "free_version": false,
+                "paid_version": true,
+                "protocols": ["MQTT", "HTTP"],
+                "integrations": [
+                    ["AWS IoT Core", "https://dev.ubidots.com/devices/industrial-iot/aws"]
+                ],
+                "workflow_rules": false,
+                "workflow_visual_designer": false,
+                "custom_dashboards": true,
+                "custom_widgets": true,
+                "debug_support": null,
+                "headline": "The IoT platform to connect, monitor, and act in real time"
+            },
+            {
+                "name": "Waylay",
+                "url": "https://www.waylay.io",
+                "open_source": false,
+                "language": null,
+                "free_version": false,
+                "paid_version": true,
+                "protocols": ["MQTT", "HTTP"],
+                "integrations": [
+                    ["", ""]
+                ],
+                "workflow_rules": true,
+                "workflow_visual_designer": true,
+                "custom_dashboards": true,
+                "custom_widgets": true,
+                "debug_support": null,
+                "headline": "Empowering Enterprises Through Intelligent Automation And Integration"
+            },
+            {
+                "name": "RTI Connext",
+                "url": "https://www.rti.com",
+                "open_source": false,
+                "language": null,
+                "free_version": false,
+                "paid_version": true,
+                "protocols": ["MQTT", "OPC UA", "Modbus"],
+                "integrations": [
+                    ["", ""]
+                ],
+                "workflow_rules": null,
+                "workflow_visual_designer": null,
+                "custom_dashboards": null,
+                "custom_widgets": null,
+                "debug_support": null,
+                "headline": "A Real-Time Data Streaming Platform"
             }
         ]
     }
