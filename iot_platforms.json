@@ -232,6 +232,24 @@
                 "custom_widgets": null,
                 "debug_support": null,
                 "headline": "A Real-Time Data Streaming Platform"
+            },
+            {
+                "name": "ValeIoT",
+                "url": "https://www.valeiot.com",
+                "open_source": false,
+                "language": null,
+                "free_version": false,
+                "paid_version": true,
+                "protocols": ["MQTT", "HTTP"],
+                "integrations": [
+                    ["", ""]
+                ],
+                "workflow_rules": null,
+                "workflow_visual_designer": null,
+                "custom_dashboards": null,
+                "custom_widgets": null,
+                "debug_support": null,
+                "headline": "Visualize, manage, and store data from any device with an easy-to-use, low-code IoT platform"
             }
         ]
     }
